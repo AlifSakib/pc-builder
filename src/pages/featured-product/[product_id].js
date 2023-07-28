@@ -2,6 +2,7 @@ import RootLayout from "@/components/layout/root-layout";
 import Image from "next/image";
 
 const FeaturedProductDetails = ({ product }) => {
+  if (!product) return <div>Loading...</div>;
   return (
     <div>
       <div className="relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col mt-10">
@@ -49,12 +50,12 @@ FeaturedProductDetails.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/featured");
+  const res = await fetch("http://localhost:3000/api/products/products");
   const data = await res.json();
 
   const paths = data.map((product) => {
     return {
-      params: { product_id: product.id.toString() },
+      params: { product_id: product._id.toString() },
     };
   });
 
@@ -68,7 +69,7 @@ export const getStaticProps = async (context) => {
   const { params } = context;
   console.log(params);
   const res = await fetch(
-    `http://localhost:5000/featured/${params?.product_id}`
+    `http://localhost:3000/api/products/${params?.product_id}`
   );
   const data = await res.json();
   return {

@@ -60,5 +60,39 @@
       "rating": 4.5,
       "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
+  ],
+  "featured_categories": [
+    {
+      "id": 1,
+      "title": "CPU / Processor"
+    },
+    {
+      "id": 2,
+      "title": "SSD"
+    },
+    {
+      "id": 3,
+      "title": "Motherboard"
+    },
+    {
+      "id": 4,
+      "title": "RAM"
+    },
+    {
+      "id": 5,
+      "title": "Power Supply Unit"
+    },
+    {
+      "id": 6,
+      "title": "Storage Device"
+    },
+    {
+      "id": 7,
+      "title": "Monitor"
+    },
+    {
+      "id": 8,
+      "title": "Others (GPU, Mouse, Keyboard, etc…)"
+    }
   ]
 }

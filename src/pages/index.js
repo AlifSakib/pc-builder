@@ -1,14 +1,16 @@
 import RootLayout from "@/components/layout/root-layout";
 import Featured from "@/components/ui/featured/featured";
+import FeatureCategories from "@/components/ui/featured/featured-cat";
 import Hero from "@/components/ui/hero-section/hero";
 import axios from "axios";
 
-const HomePage = ({ data }) => {
+const HomePage = ({ data, data2 }) => {
   console.log(data);
   return (
     <div>
       <Hero />
       <Featured all_featured_products={data} />
+      <FeatureCategories categories={data2} />
     </div>
   );
 };
@@ -21,13 +23,17 @@ HomePage.getLayout = function getLayout(page) {
 
 export const getStaticProps = async () => {
   try {
-    const res = await axios.get("http://localhost:5000/featured");
+    const res = await axios.get("http://localhost:3000/api/products/products");
+    const res2 = await axios.get("http://localhost:3000/api/categories/categories");
     const data = res?.data || {};
-    console.log(res);
+    const data2 = res2?.data || {};
     return {
-      props: { data },
+      props: { data: data, data2: data2 },
     };
   } catch (error) {
     console.log(error);
+    return {
+      props: { error: "An error occurred while fetching data." },
+    };
   }
 };
