@@ -9,46 +9,46 @@ const Footer = () => {
         </Link>
 
         <div className="flex flex-wrap items-center justify-center gap-4 mt-6 lg:gap-6 lg:mt-0">
-          <a
-            href="#"
+          <Link
+            href="/"
             className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400"
           >
             Overview
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            href="/"
             className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400"
           >
             Features
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            href="/"
             className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400"
           >
             Pricing
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="/"
             className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400"
           >
             Careers
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            href="/"
             className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400"
           >
             Help
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            href="/"
             className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400"
           >
             Privacy
-          </a>
+          </Link>
         </div>
 
         <p className="mt-6 text-sm text-gray-500 lg:mt-0 dark:text-gray-400">

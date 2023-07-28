@@ -5,6 +5,7 @@ import {
 } from "@heroicons/react/20/solid";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const features = [
   {
@@ -51,12 +52,12 @@ export default function Hero() {
               designed to cater to all your computing needs.
             </p>
             <div className="mt-6">
-              <a
+              <Link
                 href="#"
                 className="px-6 py-2.5 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-blue-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"
               >
                 Get Started Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

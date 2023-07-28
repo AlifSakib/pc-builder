@@ -23,8 +23,8 @@ HomePage.getLayout = function getLayout(page) {
 
 export const getStaticProps = async () => {
   try {
-    const res = await axios.get("http://localhost:3000/api/products/products");
-    const res2 = await axios.get("http://localhost:3000/api/categories/categories");
+    const res = await axios.get("http://localhost:3000/api/products");
+    const res2 = await axios.get("http://localhost:3000/api/categories");
     const data = res?.data || {};
     const data2 = res2?.data || {};
     return {

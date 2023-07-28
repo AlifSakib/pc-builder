@@ -15,7 +15,7 @@ const FeatureCategories = ({ categories }) => {
 
         <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {categories?.map((category) => (
-            <Link key={category?.id} href="/">
+            <Link key={category?.id} href={`/product-category/${category?.id}`}>
               <div className="px-10 h-20 flex items-center justify-center text-center transition duration-300 transform bg-gray-900 rounded-lg shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
                 <p className="font-semibold text-gray-200 ">
                   {category?.title}

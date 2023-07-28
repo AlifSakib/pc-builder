@@ -1,13 +1,14 @@
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
+import Link from "next/link";
 
 const items = [
   {
-    label: <a href="https://www.antgroup.com">CPU / Processor</a>,
+    label: <Link href="https://www.antgroup.com">CPU / Processor</Link>,
     key: "0",
   },
   {
-    label: <a href="https://www.aliyun.com">Motherboard</a>,
+    label: <Link href="https://www.aliyun.com">Motherboard</Link>,
     key: "1",
   },
   {
@@ -46,12 +47,12 @@ const NavDropDown = () => {
       }}
       trigger={["click"]}
     >
-      <a onClick={(e) => e.preventDefault()}>
+      <button onClick={(e) => e.preventDefault()}>
         <Space>
           <p className="text-sm">Categories</p>
           <DownOutlined className="text-xs" />
         </Space>
-      </a>
+      </button>
     </Dropdown>
   );
 };
