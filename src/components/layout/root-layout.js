@@ -3,9 +3,11 @@ import Navbar from "@/shared/navbar/navbar";
 
 const RootLayout = ({ children }) => {
   return (
-    <div>
+    <div
+      style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
+    >
       <Navbar />
-      <div>{children}</div>
+      <div style={{ flex: 1 }}>{children}</div>
       <Footer />
     </div>
   );

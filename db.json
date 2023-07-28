@@ -1,0 +1,64 @@
+{
+  "featured": [
+    {
+      "id": 1,
+      "name": "Intel Core i7-8700K",
+      "price": 379.99,
+      "category": "CPU",
+      "stock": 10,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Intel Core i7-8700K Desktop Processor 6 Cores up to 4.7GHz Turbo Unlocked LGA1151 300 Series 95W"
+    },
+    {
+      "id": 2,
+      "name": "AMD Ryzen 7 2700X",
+      "price": 329.99,
+      "category": "CPU",
+      "stock": 10,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "AMD Ryzen 7 2700X Processor with Wraith Prism LED Cooler - YD270XBGAFBOX"
+    },
+    {
+      "id": 3,
+      "name": "Intel Core i5-8600K",
+      "price": 259.99,
+      "category": "CPU",
+      "stock": 10,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Intel Core i5-8600K Desktop Processor 6 Cores up to 4.3 GHz unlocked LGA 1151 300 Series 95W"
+    },
+    {
+      "id": 4,
+      "name": "AMD Ryzen 5 2600X",
+      "price": 229.99,
+      "category": "CPU",
+      "stock": 10,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "AMD Ryzen 5 2600X Processor with Wraith Spire Cooler - YD260XBCAFBOX"
+    },
+    {
+      "id": 5,
+      "name": "Intel Core i5-8400",
+      "price": 199.99,
+      "category": "CPU",
+      "stock": 10,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Intel Core i5-8400 Desktop Processor 6 Cores up to 4.0 GHz LGA 1151 300 Series 65W"
+    },
+    {
+      "id": 6,
+      "name": "AMD Ryzen 5 2600",
+      "price": 199.99,
+      "category": "CPU",
+      "stock": 10,
+      "description": "AMD Ryzen 5 2600 Processor with Wraith Stealth Cooler - YD2600BBAFBOX",
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}
