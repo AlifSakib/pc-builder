@@ -2,9 +2,9 @@ import RootLayout from "@/components/layout/root-layout";
 import Image from "next/image";
 import Link from "next/link";
 
-const ProductUnderCategory = ({ products , category}) => {
+const ProductUnderCategory = ({ products, category }) => {
   return (
-    <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6  lg:max-w-7xl ">
+    <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6  lg:max-w-7xl font-dosis">
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">
         {category}
       </h2>

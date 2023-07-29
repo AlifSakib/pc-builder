@@ -5,7 +5,7 @@ import Hero from "@/components/ui/hero-section/hero";
 import axios from "axios";
 
 const HomePage = ({ data, data2 }) => {
-  console.log(data);
+  console.log(data2);
   return (
     <div>
       <Hero />

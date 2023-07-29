@@ -1,3 +1,4 @@
+import FloatingMenu from "@/components/ui/nav/floating-menu";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
@@ -6,16 +7,15 @@ import { useState } from "react";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Products", href: "/" },
-
-  { name: "Categories", href: "/" },
+  { name: "Products", href: "/all-products" },
+  // { name: "Categories", href: "/" },
 ];
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <div>
-      <header className="absolute inset-x-0 top-0 z-50">
+      <header className="absolute inset-x-0 top-0 z-50 font-dosis">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
           aria-label="Global"
@@ -48,6 +48,7 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
+            <FloatingMenu/>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-10">
             <Link

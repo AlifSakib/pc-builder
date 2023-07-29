@@ -25,7 +25,7 @@ const CategoryProducts = ({ products, category }) => {
   };
 
   return (
-    <div className="my-32">
+    <div className="my-32 font-dosis">
       <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 sm:px-6  lg:max-w-7xl ">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
@@ -35,7 +35,7 @@ const CategoryProducts = ({ products, category }) => {
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products?.map((product) => (
               <div key={product.id}>
-                <div className="group relative">
+                <div className="group relative cursor-pointer">
                   <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                     <Image
                       src={product.image}

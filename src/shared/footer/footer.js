@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-white dark:bg-gray-900 font-dosis">
       <div className="container flex flex-col items-center justify-between px-6 py-8 mx-auto lg:flex-row">
         <Link href="/">
           <h1>Pc Builder Genie</h1>

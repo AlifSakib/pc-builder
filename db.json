@@ -1,67 +1,306 @@
 {
   "featured": [
-    {
-      "id": 1,
-      "name": "Intel Core i7-8700K",
-      "price": 379.99,
-      "category": "cpu",
-      "stock": 10,
-      "rating": 4.5,
-      "categoryId": 1,
-      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "description": "Intel Core i7-8700K Desktop Processor 6 Cores up to 4.7GHz Turbo Unlocked LGA1151 300 Series 95W"
-    },
-    {
-      "id": 2,
-      "name": "AMD Ryzen 7 2700X",
-      "price": 329.99,
-      "category": "CPU",
-      "stock": 10,
-      "rating": 4.5,
-      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "description": "AMD Ryzen 7 2700X Processor with Wraith Prism LED Cooler - YD270XBGAFBOX"
-    },
-    {
-      "id": 3,
-      "name": "Intel Core i5-8600K",
-      "price": 259.99,
-      "category": "CPU",
-      "stock": 10,
-      "rating": 4.5,
-      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "description": "Intel Core i5-8600K Desktop Processor 6 Cores up to 4.3 GHz unlocked LGA 1151 300 Series 95W"
-    },
+   {
+  "id": 1,
+  "name": "AMD Ryzen 9 5900X",
+  "price": 549.99,
+  "category": "cpu",
+  "stock": 10,
+  "rating": 4.9,
+  "categoryId": 1,
+  "image": "https://img.freepik.com/free-photo/circuit-board-close-up-with-different-components_23-2149174325.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "AMD Ryzen 9 5900X 12-Core 24-Thread Desktop Processor"
+},
+{
+  "id": 2,
+  "name": "Intel Core i7-11700K",
+  "price": 449.99,
+  "category": "cpu",
+  "stock": 15,
+  "rating": 4.7,
+  "categoryId": 1,
+  "image": "https://img.freepik.com/free-vector/microchip-processor-background_52683-58933.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "Intel Core i7-11700K 8-Core 16-Thread Desktop Processor"
+},
+{
+  "id": 3,
+  "name": "AMD Ryzen 5 5600X",
+  "price": 299.99,
+  "category": "cpu",
+  "stock": 20,
+  "rating": 4.6,
+  "categoryId": 1,
+  "image": "https://img.freepik.com/free-vector/realistic-microchip-processor-background_23-2148909880.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "AMD Ryzen 5 5600X 6-Core 12-Thread Desktop Processor"
+},
     {
       "id": 4,
-      "name": "AMD Ryzen 5 2600X",
-      "price": 229.99,
-      "category": "CPU",
-      "stock": 10,
-      "rating": 4.5,
-      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "description": "AMD Ryzen 5 2600X Processor with Wraith Spire Cooler - YD260XBCAFBOX"
+  "name": "AMD Ryzen 9 5900X",
+  "price": 549.99,
+  "category": "cpu",
+  "stock": 5,
+  "rating": 4.8,
+  "categoryId": 1,
+  "image": "https://img.freepik.com/free-photo/ai-cloud-concept-with-cube_23-2149739756.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "AMD Ryzen 9 5900X Desktop Processor 12 Cores up to 4.8GHz Max Boost AM4 Socket 105W"
     },
     {
-      "id": 5,
-      "name": "Intel Core i5-8400",
-      "price": 199.99,
-      "category": "CPU",
-      "stock": 10,
-      "rating": 4.5,
-      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "description": "Intel Core i5-8400 Desktop Processor 6 Cores up to 4.0 GHz LGA 1151 300 Series 65W"
-    },
-    {
-      "id": 6,
-      "name": "AMD Ryzen 5 2600",
-      "price": 199.99,
-      "category": "CPU",
-      "stock": 10,
-      "description": "AMD Ryzen 5 2600 Processor with Wraith Stealth Cooler - YD2600BBAFBOX",
-      "rating": 4.5,
-      "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    }
+  "id": 5,
+  "name": "NVIDIA GeForce RTX 3080",
+  "price": 799.99,
+  "category": "gpu",
+  "stock": 15,
+  "rating": 4.9,
+  "categoryId": 2,
+  "image": "https://img.freepik.com/free-photo/futuristic-hi-tech-neon-background-generative-ai_91128-2309.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "NVIDIA GeForce RTX 3080 Graphics Card 10GB GDDR6X 320-bit Desktop Gaming GPU"
+},{
+  "id": 6,
+  "name": "EVGA GeForce RTX 3060",
+  "price": 499.99,
+  "category": "gpu",
+  "stock": 20,
+  "rating": 4.7,
+  "categoryId": 2,
+  "image": "https://img.freepik.com/free-photo/hard-drive-with-blue-light-laptop-arrangement_23-2149417020.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "EVGA GeForce RTX 3060 Graphics Card 12GB GDDR6 192-bit Desktop Gaming GPU"
+},{
+  "id": 7,
+  "name": "MSI GeForce GTX 1660 Super",
+  "price": 299.99,
+  "category": "gpu",
+  "stock": 12,
+  "rating": 4.5,
+  "categoryId": 2,
+  "image": "https://img.freepik.com/free-photo/hardware-component-background_23-2148882659.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "MSI GeForce GTX 1660 Super Graphics Card 6GB GDDR6 192-bit Desktop Gaming GPU"
+},
+{
+  "id": 8,
+  "name": "Samsung 980 PRO",
+  "price": 169.99,
+  "category": "ssd",
+  "stock": 25,
+  "rating": 4.8,
+  "categoryId": 3,
+  "image": "https://img.freepik.com/free-photo/futuristic-technology-illuminates-robotic-arm-laboratory-generated-by-ai_188544-29912.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "Samsung 980 PRO 1TB PCIe NVMe M.2 Internal SSD for Gaming and High-Performance Computing"
+},
+{
+  "id": 9,
+  "name": "Western Digital Blue",
+  "price": 89.99,
+  "category": "ssd",
+  "stock": 18,
+  "rating": 4.6,
+  "categoryId": 3,
+  "image": "https://img.freepik.com/free-photo/parts-hard-disk-belonging-computer-hardware-exploded-one-by-one-arranged_463209-20.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=sph",
+  "description": "Western Digital Blue 500GB SATA III 2.5-inch Internal SSD for Everyday Computing"
+},{
+  "id": 10,
+  "name": "Crucial MX500",
+  "price": 79.99,
+  "category": "ssd",
+  "stock": 30,
+  "rating": 4.7,
+  "categoryId": 3,
+  "image": "https://img.freepik.com/free-photo/man-using-external-storage-used_23-2149388490.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=sph",
+  "description": "Crucial MX500 1TB SATA III 2.5-inch Internal SSD for Enhanced Performance and Reliability"
+},
+
+  {
+  "id": 11,
+  "name": "Corsair Vengeance LPX",
+  "price": 89.99,
+  "category": "ram",
+  "stock": 30,
+  "rating": 4.8,
+  "categoryId": 4,
+  "image": "https://img.freepik.com/free-photo/disassembled-hard-drive-from-computer-hdd-with-mirror-effect_8353-5991.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=sph",
+  "description": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz C16 Desktop Memory Kit for High-Performance Gaming"
+},{
+  "id": 12,
+  "name": "G.Skill Trident Z RGB",
+  "price": 129.99,
+  "category": "ram",
+  "stock": 20,
+  "rating": 4.7,
+  "categoryId": 4,
+  "image": "https://img.freepik.com/free-vector/flat-design-hard-drive-illustration_23-2149356395.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=sph",
+  "description": "G.Skill Trident Z RGB 32GB (2x16GB) DDR4 3600MHz C18 Desktop Memory Kit with Stunning RGB Lighting"
+},
+{
+  "id": 13,
+  "name": "Kingston HyperX Fury",
+  "price": 59.99,
+  "category": "ram",
+  "stock": 25,
+  "rating": 4.6,
+  "categoryId": 4,
+  "image": "https://img.freepik.com/free-photo/circuit-board-close-up-with-different-components_23-2149174325.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "Kingston HyperX Fury 8GB DDR4 2666MHz CL16 Desktop Memory Module for Reliable Performance"
+},
+{
+  "id": 14,
+  "name": "ASUS ROG Strix B550-F Gaming",
+  "price": 189.99,
+  "category": "motherboard",
+  "stock": 15,
+  "rating": 4.9,
+  "categoryId": 5,
+  "image": "https://img.freepik.com/free-photo/high-angle-hard-drive-components_23-2149417027.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "ASUS ROG Strix B550-F Gaming ATX Motherboard with PCIe 4.0, Dual M.2, 14+2 Power Stages, and Aura Sync RGB"
+},
+{
+  "id": 15,
+  "name": "GIGABYTE B450 AORUS Elite",
+  "price": 109.99,
+  "category": "motherboard",
+  "stock": 20,
+  "rating": 4.7,
+  "categoryId": 5,
+  "image": "https://img.freepik.com/free-photo/futuristic-hi-tech-neon-background-generative-ai_91128-2310.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "GIGABYTE B450 AORUS Elite ATX Motherboard with Dual M.2, RGB Fusion, and Smart Fan 5"
+},
+{
+  "id": 16,
+  "name": "MSI MPG Z590 Gaming Edge WiFi",
+  "price": 229.99,
+  "category": "motherboard",
+  "stock": 12,
+  "rating": 4.8,
+  "categoryId": 5,
+  "image": "https://img.freepik.com/free-photo/view-neon-illuminated-gaming-desk-setup-with-keyboard_23-2149529360.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "MSI MPG Z590 Gaming Edge WiFi ATX Motherboard with PCIe 4.0, WiFi 6E, and Lightning USB 20G"
+},
+{
+  "id": 17,
+  "name": "EVGA Supernova 850 G3",
+  "price": 159.99,
+  "category": "psu",
+  "stock": 15,
+  "rating": 4.8,
+  "categoryId": 6,
+  "image": "https://img.freepik.com/free-photo/view-illuminated-neon-gaming-desk-setup-with-3d-glasses_23-2149529356.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "EVGA Supernova 850 G3 850W 80+ Gold Certified Fully Modular Power Supply for High-End Gaming and Overclocking"
+},{
+  "id": 18,
+  "name": "Seasonic Focus GX-650",
+  "price": 99.99,
+  "category": "psu",
+  "stock": 20,
+  "rating": 4.7,
+  "categoryId": 6,
+  "image": "https://img.freepik.com/free-photo/view-neon-illuminated-gaming-desk-setup-with-keyboard_23-2149529380.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "Seasonic Focus GX-650 650W 80+ Gold Certified Fully Modular Power Supply with Hybrid Silent Fan Control"
+},{
+  "id": 19,
+  "name": "Seasonic Focus GX-650",
+  "price": 99.99,
+  "category": "psu",
+  "stock": 20,
+  "rating": 4.7,
+  "categoryId": 6,
+  "image": "https://img.freepik.com/free-vector/modern-cpu-collection-with-flat-design_23-2147968988.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "Seasonic Focus GX-650 650W 80+ Gold Certified Fully Modular Power Supply with Hybrid Silent Fan Control"
+},
+{
+  "id": 20,
+  "name": "Samsung 970 EVO Plus",
+  "price": 149.99,
+  "category": "storage",
+  "stock": 25,
+  "rating": 4.9,
+  "categoryId": 7,
+  "image": "https://img.freepik.com/free-photo/high-angle-hard-drive-still-life_23-2149319321.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "Samsung 970 EVO Plus 1TB NVMe M.2 Internal SSD with Read/Write Speeds for Ultra-Fast Storage"
+},{
+  "id": 21,
+  "name": "Seagate BarraCuda 4TB",
+  "price": 99.99,
+  "category": "storage",
+  "stock": 20,
+  "rating": 4.7,
+  "categoryId": 7,
+  "image": "https://img.freepik.com/free-photo/high-angle-hard-drive-components-laptop_23-2149417053.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "Seagate BarraCuda 4TB 3.5-inch Internal Hard Drive with High Capacity and Reliable Performance"
+},
+{
+  "id": 22,
+  "name": "Western Digital My Passport 1TB",
+  "price": 59.99,
+  "category": "storage",
+  "stock": 30,
+  "rating": 4.8,
+  "categoryId": 7,
+  "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-hard-drive-illustration_23-2149365019.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "Western Digital My Passport 1TB External Portable USB 3.0 Hard Drive for Easy Data Backup and Transfer"
+},
+{
+  "id": 23,
+  "name": "LG 27GL850-B",
+  "price": 399.99,
+  "category": "monitor",
+  "stock": 15,
+  "rating": 4.9,
+  "categoryId": 8,
+  "image": "https://img.freepik.com/premium-psd/ultrawide-computer-monitors-mockup_1332-13877.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.1.1755337362.1679141764&semt=sph",
+  "description": "LG 27GL850-B 27-inch QHD Nano IPS Gaming Monitor with 144Hz Refresh Rate and G-Sync Compatibility"
+},
+{
+  "id": 24,
+  "name": "Dell U2719D",
+  "price": 349.99,
+  "category": "monitor",
+  "stock": 20,
+  "rating": 4.8,
+  "categoryId": 8,
+  "image": "https://images.pexels.com/photos/93380/pexels-photo-93380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "description": "https://img.freepik.com/free-vector/sophisticated-computer-yellow-background_1045-422.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=sph"
+},{
+  "id": 25,
+  "name": "ASUS ROG Swift PG279Q",
+  "price": 699.99,
+  "category": "monitor",
+  "stock": 12,
+  "rating": 4.7,
+  "categoryId": 8,
+  "image": "https://img.freepik.com/free-psd/realistic-computer-design_1310-686.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=sph",
+  "description": "ASUS ROG Swift PG279Q 27-inch WQHD Gaming Monitor with 165Hz Refresh Rate and G-Sync Technology"
+},
+{
+  "id": 26,
+  "name": "Logitech G Pro Wireless",
+  "price": 129.99,
+  "category": "others",
+  "stock": 25,
+  "rating": 4.9,
+  "categoryId": 9,
+  "image": "https://img.freepik.com/free-psd/helmet-mock-up_1310-159.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=sph",
+  "description": "Logitech G Pro Wireless Gaming Mouse with HERO 25K Sensor and Ultra-Lightweight Design"
+},{
+  "id": 27,
+  "name": "Razer BlackWidow Elite",
+  "price": 149.99,
+  "category": "others",
+  "stock": 20,
+  "rating": 4.8,
+  "categoryId": 9,
+  "image": "https://img.freepik.com/free-photo/view-neon-illuminated-gaming-desk-setup-with-keyboard_23-2149529376.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "Razer BlackWidow Elite Mechanical Gaming Keyboard with Razer Green Switches and RGB Lighting"
+},{
+  "id": 28,
+  "name": "Sony WH-1000XM4",
+  "price": 349.99,
+  "category": "others",
+  "stock": 15,
+  "rating": 4.9,
+  "categoryId": 9,
+  "image": "https://img.freepik.com/free-photo/top-view-top-important-traveling-tools_23-2148300708.jpg?size=626&ext=jpg&uid=R96710833&ga=GA1.2.1755337362.1679141764&semt=ais",
+  "description": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones with Industry-Leading ANC and Hi-Res Audio"
+}
   ],
+
   "featured_categories": [
     {
       "id": 1,
@@ -70,36 +309,43 @@
     },
     {
       "id": 2,
-      "title": "SSD",
-      "category": "ssd"
+      "title": "GPU / Graphics Card",
+      "category": "gpu"
     },
     {
       "id": 3,
-      "title": "Motherboard",
-      "category": "motherboard"
+      "title": "SSD",
+      "category": "ssd"
     },
-    {
+     {
       "id": 4,
       "title": "RAM",
       "category": "ram"
     },
     {
+
       "id": 5,
+      "title": "Motherboard",
+      "category": "motherboard"
+    },
+   
+    {
+      "id": 6,
       "title": "Power Supply Unit",
       "category": "psu"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Storage Device",
       "category": "storage"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Monitor",
       "category": "monitor"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Others (GPU, Mouse, Keyboard, etc…)",
       "category": "others"
     }

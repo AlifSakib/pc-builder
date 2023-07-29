@@ -45,7 +45,7 @@ const FeaturedProductDetails = ({ product }) => {
           />
         </div>
       </div> */}
-      <div className="mx-auto mt-20 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
+      <div className="mx-auto  mt-20 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
         <div className="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
           <Image
             src={product.image}
@@ -76,7 +76,7 @@ const FeaturedProductDetails = ({ product }) => {
       </div>
 
       {/* Product info */}
-      <div className="mx-auto max-w-2xl px-4 pb-16 pt-10 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pb-24 lg:pt-16">
+      <div className="mx-auto max-w-2xl font-dosis px-4 pb-16 pt-10 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pb-24 lg:pt-16">
         <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
           <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
             {product.name}

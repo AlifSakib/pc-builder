@@ -5,7 +5,7 @@ import { useState } from "react";
 const Register = () => {
   const [sidebar, setsidebar] = useState();
   return (
-    <div className="relative isolate px-6 pt-14 lg:px-8">
+    <div className="relative isolate px-6 pt-14 lg:px-8 font-dosis">
       <div
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
@@ -35,7 +35,7 @@ const Register = () => {
             fill="white"
           />
         </svg> */}
-        <div className="bg-white shadow rounded lg:w-1/3  md:w-1/2 w-full p-10 mt-16">
+        <div className="bg-white shadow rounded-xl lg:w-1/3  md:w-1/2 w-full p-10 mt-16">
           <p
             tabIndex={0}
             aria-label="Login to your account"
