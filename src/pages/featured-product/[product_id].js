@@ -49,7 +49,7 @@ const FeaturedProductDetails = ({ product }) => {
         <div className="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
           <Image
             src={product.image}
-            alt={product.name}
+            alt={"image"}
             className="h-full w-full object-cover object-center"
             width={500}
             height={500}
@@ -58,7 +58,7 @@ const FeaturedProductDetails = ({ product }) => {
         <div className="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
           <Image
             src={product.image}
-            alt={product.name}
+            alt={"image"}
             className="h-full w-full object-cover object-center"
             width={500}
             height={500}
@@ -67,7 +67,7 @@ const FeaturedProductDetails = ({ product }) => {
         <div className="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
           <Image
             src={product.image}
-            alt={product.name}
+            alt={"image"}
             className="h-full w-full object-cover object-center"
             width={500}
             height={500}
@@ -153,7 +153,7 @@ FeaturedProductDetails.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:3000/api/products");
+  const res = await fetch("https://pc-builder-alifsakib.vercel.app/api/products");
   const data = await res.json();
 
   const paths = data.map((product) => {
@@ -172,7 +172,7 @@ export const getStaticProps = async (context) => {
   const { params } = context;
   console.log(params);
   const res = await fetch(
-    `http://localhost:3000/api/products/${params?.product_id}`
+    `${process.env.URL}/api/products/${params?.product_id}`
   );
   const data = await res.json();
   return {

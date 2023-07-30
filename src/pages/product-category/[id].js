@@ -16,7 +16,7 @@ const ProductUnderCategory = ({ products, category }) => {
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <Image
                   src={product.image}
-                  alt={product.imageAlt}
+                  alt={"Image"}
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                   width={300}
                   height={300}
@@ -49,7 +49,7 @@ ProductUnderCategory.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:3000/api/categories");
+  const res = await fetch(`${process.env.URL}/api/categories`);
   const data = await res.json();
   console.log("Fetched categories data:", data);
 
@@ -71,7 +71,7 @@ export const getStaticProps = async (context) => {
   const { params } = context;
   console.log("Requested category ID:", params?.id);
 
-  const res = await fetch(`http://localhost:3000/api/categories/${params?.id}`);
+  const res = await fetch(`${process.env.URL}/api/categories/${params?.id}`);
   const data = await res.json();
   console.log("Fetched category data:", data);
 

@@ -99,7 +99,7 @@ BuildPc.getLayout = function getLayout(page) {
 
 export const getServerSideProps = async () => {
   try {
-    const res = await axios.get("http://localhost:3000/api/categories");
+    const res = await axios.get(`${process.env.URL}/api/categories`);
     const data = res?.data || {};
     console.log(data);
 

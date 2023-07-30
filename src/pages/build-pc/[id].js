@@ -39,7 +39,7 @@ const CategoryProducts = ({ products, category }) => {
                   <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                     <Image
                       src={product.image}
-                      alt={product.imageAlt}
+                      alt={"image"}
                       className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                       width={300}
                       height={300}
@@ -85,7 +85,7 @@ export const getServerSideProps = async (context) => {
   const { params } = context;
   console.log("Requested category ID:", params?.id);
 
-  const res = await fetch(`http://localhost:3000/api/categories/${params?.id}`);
+  const res = await fetch(`${process.env.URL}/api/categories/${params?.id}`);
   const data = await res.json();
   console.log("Fetched category data:", data);
 

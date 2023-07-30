@@ -55,7 +55,7 @@ AllProducts.getLayout = function getLayout(page) {
 
 export const getServerSideProps = async () => {
   try {
-    const res = await axios.get("http://localhost:3000/api/products");
+    const res = await axios.get(`${process.env.URL}/api/products`);
     const data = res?.data || {};
     return {
       props: { products: data },
