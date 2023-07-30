@@ -4,10 +4,10 @@
       "id": 1,
       "name": "Intel Core i7-8700K",
       "price": 379.99,
-      "category": "CPU",
+      "category": "cpu",
       "stock": 10,
       "rating": 4.5,
-      "categoryId" : 1,
+      "categoryId": 1,
       "image": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "Intel Core i7-8700K Desktop Processor 6 Cores up to 4.7GHz Turbo Unlocked LGA1151 300 Series 95W"
     },
@@ -65,35 +65,43 @@
   "featured_categories": [
     {
       "id": 1,
-      "title": "CPU / Processor"
+      "title": "CPU / Processor",
+      "category": "cpu"
     },
     {
       "id": 2,
-      "title": "SSD"
+      "title": "SSD",
+      "category": "ssd"
     },
     {
       "id": 3,
-      "title": "Motherboard"
+      "title": "Motherboard",
+      "category": "motherboard"
     },
     {
       "id": 4,
-      "title": "RAM"
+      "title": "RAM",
+      "category": "ram"
     },
     {
       "id": 5,
-      "title": "Power Supply Unit"
+      "title": "Power Supply Unit",
+      "category": "psu"
     },
     {
       "id": 6,
-      "title": "Storage Device"
+      "title": "Storage Device",
+      "category": "storage"
     },
     {
       "id": 7,
-      "title": "Monitor"
+      "title": "Monitor",
+      "category": "monitor"
     },
     {
       "id": 8,
-      "title": "Others (GPU, Mouse, Keyboard, etc…)"
+      "title": "Others (GPU, Mouse, Keyboard, etc…)",
+      "category": "others"
     }
   ]
 }

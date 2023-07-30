@@ -1,8 +1,29 @@
 import RootLayout from "@/components/layout/root-layout";
+import { addToPcBuild } from "@/redux/features/pc-build/pc-build-slice";
 import Image from "next/image";
-import Link from "next/link";
+import { useRouter } from "next/router";
+import { useDispatch } from "react-redux";
 
 const CategoryProducts = ({ products, category }) => {
+  const dispatch = useDispatch();
+  const router = useRouter();
+
+  if (!products) {
+    return (
+      <div>
+        <h1 className="text-2xl font-bold tracking-tight text-gray-900">
+          No products found
+        </h1>
+      </div>
+    );
+  }
+
+  const handleAddToPcBuild = (product) => {
+    dispatch(addToPcBuild(product));
+    // can you navigate("/build-pc");
+    router.push("/build-pc");
+  };
+
   return (
     <div className="my-32">
       <div className="bg-white">
@@ -13,7 +34,7 @@ const CategoryProducts = ({ products, category }) => {
 
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products?.map((product) => (
-              <Link key={product.id} href={`/featured-product/${product?._id}`}>
+              <div key={product.id}>
                 <div className="group relative">
                   <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                     <Image
@@ -38,11 +59,14 @@ const CategoryProducts = ({ products, category }) => {
                       {product.price}
                     </p>
                   </div>
-                  <button className="text-center w-full bg-indigo-700 text-white py-px rounded hover:bg-indigo-500">
-                    Add to pc build
-                  </button>
                 </div>
-              </Link>
+                <button
+                  onClick={() => handleAddToPcBuild(product)}
+                  className="text-center w-full bg-indigo-700 text-white py-px rounded hover:bg-indigo-500"
+                >
+                  Add to Builder
+                </button>
+              </div>
             ))}
           </div>
         </div>

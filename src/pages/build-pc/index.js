@@ -1,8 +1,17 @@
 import RootLayout from "@/components/layout/root-layout";
 import axios from "axios";
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 const BuildPc = ({ data: categories }) => {
+  const selected = useSelector((state) => state.pcBuilder);
+  console.log(selected[0]);
+  const handleCompleteBuild = (items) => {
+    if (Object.keys(items).length < 5) {
+      alert("Please select at least five item from each category");
+      return;
+    }
+  };
   return (
     <div className="my-20">
       <div className="mx-auto py-16 max-w-2xl px-4 sm:px-6  lg:max-w-7xl ">
@@ -15,11 +24,27 @@ const BuildPc = ({ data: categories }) => {
             <Link key={category.id} href={`/build-pc/${category?.id}`}>
               <div className="group relative border rounded-lg transition-all duration-150 hover:translate-x-2 hover:bg-indigo-600 text-gray-700 hover:text-white">
                 <div className="my-4 flex justify-center">
-                  <h3 className="text-sm  text-center">{category.title}</h3>
+                  {selected[0]?.items[category?.category] ? (
+                    <div className="text-center  w-full">
+                      <div>{selected[0]?.items[category?.category]?.name}</div>
+                    </div>
+                  ) : (
+                    <div>
+                      <p>{category?.title}</p>
+                    </div>
+                  )}
                 </div>
               </div>
             </Link>
           ))}
+        </div>
+        <div className="flex justify-center my-10">
+          <button
+            onClick={() => handleCompleteBuild(selected[0]?.items)}
+            className="bg-green-500 text-white px-20 py-2 rounded hover:border hover:bg-white hover:text-black transition-colors duration-200 delay-75"
+          >
+            Complete Build
+          </button>
         </div>
       </div>
     </div>
